@@ -8,6 +8,7 @@ def digit_sum(num):
     return total
 
 # testing the function
-print("Sum of digits:", digit_sum(492)) # 15
-print("Sum of digits:", digit_sum(123456789)) # 45
-print("Sum of digits:", digit_sum(0)) # 0
+MESSAGE = "Sum of digits:"
+print(MESSAGE, digit_sum(492)) # 15
+print(MESSAGE, digit_sum(123456789)) # 45
+print(MESSAGE, digit_sum(0)) # 0
