@@ -1,9 +1,9 @@
 # This function adds up everything in the list
 def sum_list(numbers):
-    sum = 0
+    _sum = 0
     for n in numbers:
-        sum = sum + n   # this keeps adding each number
-    return sum
+        _sum = _sum + n   # this keeps adding each number
+    return _sum
 
 # Testing the function
 if __name__ == "__main__":
